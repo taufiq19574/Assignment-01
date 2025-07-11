@@ -70,7 +70,7 @@ nav{
 .action{
     display: flex;
     justify-content: space-between;
-    padding: 50px 130px;
+    padding: 130px;
 }
 .action-content{
     width: 500px;
@@ -123,5 +123,42 @@ nav{
     font-weight: 500;
 }
 
+/* form section styles */
+
+
+form{
+    margin-bottom: 15px;
+}
+.form-section{
+    display: flex;
+    padding: 130px;
+    align-items: center;
+    
+}
+.form-title{
+    font-size: 97px;
+}
+.form-div form label{
+    font-size: 18px;
+    font-weight: 500;
+}
+.form-div form input{
+    width: 430px;
+    height: 60px;
+    padding: 0 20px;
+    border-radius: 7px;
+    border: 1px solid #D6DDED;
+}
+.form-div form input::placeholder, textarea::placeholder{
+    font-size: 20px;
+}
+textarea{
+    border-radius: 5px;
+    border: 1px solid #D6DDED; 
+    padding: 20px;
+}
+.form-button{
+    width: 478px;
+}
 
 
