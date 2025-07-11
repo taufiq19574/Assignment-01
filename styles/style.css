@@ -93,5 +93,35 @@ nav{
     border-radius: 50px;
 }
 
+/* productive users styles */
+
+.productive-users{
+    background-color: rgba(78, 71, 255, 10%);
+    width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 80px;
+}
+.productive-users-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.productive-users-data{
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+.data-title{
+    color: #4E47FF;
+    font-size: 80px;
+}
+.data-description{
+    color: rgba(37, 36, 50, 50%);
+    font-size: 22px;
+    font-weight: 500;
+}
+
 
 
