@@ -26,6 +26,7 @@
     border: none;
     cursor: pointer;
 }
+
 a{
     text-decoration: none;
     color: #ffffff;
@@ -125,6 +126,54 @@ nav{
     color: rgba(37, 36, 50, 50%);
     font-size: 22px;
     font-weight: 500;
+}
+
+/* user feedback styles */
+
+.user-feedbacks{
+    text-align: center;
+    width: 1110px;
+    margin: 170px;
+}
+.user-feedbacks h2{
+    font-size: 42px;
+}
+.user-feedback{
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+}
+.feedback{
+    width: 300px;
+    padding: 20px 0px 20px 20px;
+    background-color: #ffffff;
+    text-align: left;
+}
+.feedback-title{
+    margin-top: 20px;
+}
+.feedback-description{
+    margin-top: 10px;
+    color: #252432;
+}
+.reviewer-info{
+    margin-top: 20px;
+    display: flex;
+}
+.reviewer-info img{
+    border-radius: 50%;
+}
+.reviewer-data{
+    padding-left: 10px;
+}
+.reviewer-name{
+    color: #757575;
+    font-size: 14px;
+    padding-top: 7px;
+}
+.review-date{
+    color: #B3B3B3;
+    font-size: 14px;
 }
 
 /* form section styles */
