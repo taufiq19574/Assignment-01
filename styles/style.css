@@ -1,14 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-}
-
-.open-sans-normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: 'Raleway', sans-serif;
 }
 
 .full-body{
@@ -25,8 +18,13 @@
     border-radius: 7px;
     border: none;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
-
+.btn-primary:hover{
+    background-color: #483dcb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
 a{
     text-decoration: none;
     color: #ffffff;
@@ -50,6 +48,7 @@ nav{
     font-size: 30px;
     color: #4E47FF;
     font-weight: 900;
+    font-family: 'inter', sans-serif;
 }
 
 /* banner styles */
@@ -121,11 +120,13 @@ nav{
 .data-title{
     color: #4E47FF;
     font-size: 80px;
+    font-family: 'inter', sans-serif;
 }
 .data-description{
     color: rgba(37, 36, 50, 50%);
     font-size: 22px;
     font-weight: 500;
+    font-family: 'inter', sans-serif;
 }
 
 /* user feedback styles */
@@ -133,7 +134,7 @@ nav{
 .user-feedbacks{
     text-align: center;
     width: 1110px;
-    margin: 170px;
+    padding: 150px 170px 0px 170px;
 }
 .user-feedbacks h2{
     font-size: 42px;
@@ -194,6 +195,7 @@ form{
 .form-div form label{
     font-size: 18px;
     font-weight: 500;
+    font-family: 'inter', sans-serif;
 }
 .form-div form input{
     width: 430px;
@@ -224,6 +226,7 @@ footer{
 footer h2{
     font-size: 100px;
     font-weight: 900;
+    font-family: 'inter', sans-serif;
     color: #4E47FF;
 }
 footer p{
