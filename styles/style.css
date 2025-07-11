@@ -11,6 +11,10 @@
     "wdth" 100;
 }
 
+.full-body{
+    background-color: rgba(214, 221, 237, 40%);
+}
+
 /* shared styles */
 .btn-primary{
     background-color: #4E47FF;
@@ -161,4 +165,31 @@ textarea{
     width: 478px;
 }
 
+/* footer styles */
 
+footer{
+    text-align: center;
+    padding: 70px;
+    border: 1px solid rgba(0, 0, 0, 10%);
+}
+footer h2{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+footer p{
+    color: #8987A1;
+    font-size: 20px;
+    padding: 20px;
+}
+footer ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+footer ul li{
+    list-style: none;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #8987A1;
+}
