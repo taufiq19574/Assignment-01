@@ -65,7 +65,33 @@ nav{
     margin-top: 50px;
 }
 
+/* action styles */
 
+.action{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 130px;
+}
+.action-content{
+    width: 500px;
+}
+.action-content h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.action-content h4{
+    font-size: 28px;
+    font-weight: 400;
+    color: rgba(37, 36, 50, 50%);
+    margin-top: 25px;
+}
+.action-content button{
+    margin-top: 25px;
+}
+.action img{
+    border-radius: 50px;
+}
 
 
 
