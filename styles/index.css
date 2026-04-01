@@ -66,6 +66,8 @@ nav{
 main{
     max-width: 1080px;
     margin: 0 auto;
+    padding: 0 150px;
+    background-color: rgba(78, 71, 255, 0.04);
 }
 
 /* action styles */
@@ -86,4 +88,77 @@ main{
 .action img {
     width: 400px;
     border-radius: 50px;
+}
+
+/* productive user styles */
+.productive-users{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 25px;
+    text-align: center;
+    padding: 50px 0;
+}
+.productive-users-title{
+    font-weight: 700;
+    font-size: 35px;
+}
+.productive-users-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 40px;
+}
+.user-data h1{
+    font-size: 75px;
+    font-weight: 700;
+}
+.user-data p{
+    font-size: 18px;
+}
+
+/* users feedback styles */
+.users-feedback{
+    margin: 135px 0;
+}
+.users-feedback-title{
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.users-feedback-container{
+    display: flex;
+    gap: 20px;
+}
+.user-feedback{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 22px;
+}
+.star-icon{
+    width: 90px;
+    height: 16px;
+    background-image: url("../Assets/icon-star.png");
+    background-repeat: repeat-x;
+    margin-bottom: 20px;
+}
+.user-feedback-subtitle{
+    font-size: 15px;
+    padding-top: 8px;
+    padding-bottom: 22px;
+}
+.review{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.review img{
+    border-radius: 50%;
+}
+.review h4{
+    font-weight: 600;
+    color: #757575;
+}
+.review p{
+    color: #B3B3B3;
 }
