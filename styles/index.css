@@ -19,6 +19,9 @@
 .primary-color{
     color: #4E47FF;
 }
+.text-color{
+    color: rgba(0, 0, 0, 0.5);
+}
 .btn-primary{
     font-weight: 700;
     padding: 12px 32px;
@@ -57,4 +60,30 @@ nav{
     font-weight: 700;
     font-size: 60px;
     margin-bottom: 35px;
+}
+
+/* main styles */
+main{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/* action styles */
+.action{
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    padding: 115px 0;
+}
+.action-title{
+    font-weight: 700;
+    font-size: 38px;
+}
+.action-subtitle{
+    font-size: 22px;
+    padding: 20px 0;
+}
+.action img {
+    width: 400px;
+    border-radius: 50px;
 }
